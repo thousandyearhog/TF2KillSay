@@ -125,7 +125,7 @@ namespace TF2KillSay
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(null, e.Message + e.StackTrace, "TF2 KillSay", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(null, e.Message, "TF2 KillSay", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
                 }
