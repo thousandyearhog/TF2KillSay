@@ -89,7 +89,7 @@
             this.KillSayText.Name = "KillSayText";
             this.KillSayText.Size = new System.Drawing.Size(756, 257);
             this.KillSayText.TabIndex = 2;
-            this.KillSayText.Text = "%v was owned by https://github.com/thousandyearhog/TF2KillSay";
+            this.KillSayText.Text = "%v was owned with https://github.com/thousandyearhog/TF2KillSay";
             // 
             // label2
             // 
