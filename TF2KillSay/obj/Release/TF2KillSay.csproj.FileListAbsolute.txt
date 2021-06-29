@@ -1,0 +1,10 @@
+D:\TF2KillSay\TF2KillSay\TF2KillSay\bin\Release\TF2KillSay.exe
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.csprojAssemblyReference.cache
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.Main.resources
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.Properties.Resources.resources
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.csproj.GenerateResource.cache
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.csproj.CoreCompileInputs.cache
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.exe
+D:\TF2KillSay\TF2KillSay\TF2KillSay\bin\Release\WindowsInput.xml
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.csproj.CopyComplete
+D:\TF2KillSay\TF2KillSay\TF2KillSay\obj\Release\TF2KillSay.csproj.Fody.CopyLocal.cache

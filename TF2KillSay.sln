@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TF2KillSay", "TF2KillSay\TF2KillSay.csproj", "{EAA8785C-A95D-4ABD-AA6B-8DFC6FC0169B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA8785C-A95D-4ABD-AA6B-8DFC6FC0169B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA8785C-A95D-4ABD-AA6B-8DFC6FC0169B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA8785C-A95D-4ABD-AA6B-8DFC6FC0169B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA8785C-A95D-4ABD-AA6B-8DFC6FC0169B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C50F41D-6405-446D-8081-42D464F9C196}
+	EndGlobalSection
+EndGlobal
