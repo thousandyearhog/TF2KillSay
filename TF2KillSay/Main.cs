@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +14,7 @@ namespace TF2KillSay
     public partial class Main : Form
     {
         public static Regex PlayerKilled = new Regex(@"^(.*) killed (.*) with (.*)$");
+        public static bool Read = false;
         public Main()
         {
             InitializeComponent();
@@ -28,12 +29,14 @@ namespace TF2KillSay
         {
             if (SetTF2DirBtn.Text == "Set")
             {
+                Read = true;
                 SetTF2DirBtn.Text = "Change";
                 TF2Directory.Enabled = false;
                 SetConfig();
             }
             else
             {
+                Read = false;
                 SetTF2DirBtn.Text = "Set";
                 TF2Directory.Enabled = true;
             }
@@ -117,15 +120,16 @@ namespace TF2KillSay
                                 IsReadOnly = true
                             };
                         }
-                        new Thread(() =>
+                        var joe = new Thread(() =>
                         {
                             ReadConsole(consolefilepath);
                         })
-                        { IsBackground = true, Priority = ThreadPriority.Highest }.Start();
+                        { IsBackground = true, Priority = ThreadPriority.Highest };
+                        joe.Start();
                     }
                     catch (Exception e)
                     {
-                        MessageBox.Show(null, e.Message, "TF2 KillSay", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(null, e.Message + e.StackTrace, "TF2 KillSay", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
                 }
@@ -137,7 +141,7 @@ namespace TF2KillSay
             using (var sr = new StreamReader(fs, Encoding.GetEncoding("UTF-8")))
             {
                 sr.ReadToEnd();
-                while (true)
+                while (Read)
                 {
                     var ln = sr.ReadLine();
                     if (!string.IsNullOrEmpty(ln))
